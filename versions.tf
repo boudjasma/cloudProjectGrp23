@@ -1,12 +1,8 @@
-terraform  {
-	required_providers  {
-		azurerm = {
-			source = "hashicorp/azurerm"
-			version = "=2.46.0"
-	}
-		databricks = {
-			source = "databrickslabs/databricks"
-			version = "0.4.4"
-		}
-	}
+terraform {
+  required_providers {
+    google = {
+      source = "hashicorp/google"
+      version = "4.12.0"
+    }
+  }
 }
