@@ -122,4 +122,10 @@ EOF
 
 }
 
+resource "google_storage_bucket" "herschel_supply_co" {
+  name          = "image-store.com"
+  location      = "EU"
+}
+
+
 
